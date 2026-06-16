@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: enru-social-backend-testing
+    runtime: docker
+    plan: free
