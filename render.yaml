@@ -1,5 +1,6 @@
 services:
   - type: web
     name: enru-social-backend-testing
-    runtime: docker
-    plan: free
+    runtime: docker # Ensure this is set to docker
+    dockerContext: . # This tells Render to look in the main folder
+    dockerfilePath: ./Dockerfile # Ensure this matches your file name
