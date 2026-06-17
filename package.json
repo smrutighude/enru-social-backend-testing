@@ -1,0 +1,14 @@
+{
+  "name": "enru-social-backend",
+  "version": "1.0.0",
+  "description": "Enru Logistics Branding and Carousel Engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^22.6.0",
+    "pptxgenjs": "^3.12.0"
+  }
+}
